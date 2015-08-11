@@ -9,6 +9,7 @@ Router.map(function() {
   this.resource('score', {path: 'score/:score_id'});
   this.route('scores');
   this.route('response');
+  this.route('thanks');
 });
 
 export default Router;

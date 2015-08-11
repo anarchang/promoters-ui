@@ -20,6 +20,8 @@ export default Ember.Controller.extend({
                     });
 
                     score.save();
+                    this.transitionTo('thanks');
             }
+            
     }
 });
