@@ -1,9 +1,16 @@
 <img id="logo" src="prmtrs_logo_1.png">
 
+
+<div class="chart">
+	{{#each sortedComments as |item|}}
+		<div class='bar score{{item.score}}' ></div>
+	{{/each}}
+</div>
+
 <ul>
 	{{#each sortedComments as |item|}}
 		<li> <span class="score">{{item.score}} </span> {{item.comment}}</li>
 	{{/each}}
 </ul>
 
-{{bar-chart width=300 height=160 chartdata=model}}
+<!-- {{bar-chart width=300 height=160 chartdata=model}} -->

@@ -1,5 +1,6 @@
 #logo {
 	height: 80px;
+	display: block;
 }
 
 textarea {
@@ -18,6 +19,12 @@ li {
 	margin-bottom: 15px;
 }
 
+.chart{
+	margin: 35px 35px;
+	width: 90%;
+	height: 200px;
+}
+
 .axis path,
 .axis line {
   fill: none;
@@ -27,14 +34,73 @@ li {
 
 .bar {
   fill: steelblue;
+  background-color: steelblue;
+  display: inline-block;
+  width: 10px;
+}
+
+.score10{
+	height: 100%;
+	background-color: #98c739;
+}
+
+.score9{
+	height: 90%;
+	background-color: #98c739;
+}
+
+.score8{
+	height: 80%;
+	background-color: #d8dad2;
+}
+
+.score7{
+	height: 7%;
+	background-color: #d8dad2;
+}
+
+.score6{
+	height: 60%;
+	background-color: #d12615;
+}
+
+.score5{
+	height: 50%;
+	background-color: #d12615;
+}
+
+.score4{
+	height: 40%;
+	background-color: #d12615;
+}
+
+.score3{
+	height: 30%;
+	background-color: #d12615;
+}
+
+.score2{
+	height: 20%;
+	background-color: #d12615;
+}
+
+.score1{
+	height: 10%;
+	background-color: #d12615;
 }
 
 .x.axis path {
   display: none;
 }
 
-svg {
+.barchart {
 	display: block;
+	width: 960;
+	height: 500;
+}
+
+.axislabel {
+
 }
 
 .score{
