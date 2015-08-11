@@ -13,6 +13,34 @@ button {
 	height: 20px;
 }
 
+li {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+svg {
+	display: block;
+}
+
+.score{
+	padding-right: 10px;
+}
+
 body{
 
 	padding: 20px 50px;
