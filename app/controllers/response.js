@@ -6,7 +6,7 @@ export default Ember.Controller.extend({
 	email: null,
 	category: null,
 
-    commentText: 'my comment in response',
+    commentText: null,
     actions: {
             saveComment: function() {
                     console.log(this.get('commentText'));

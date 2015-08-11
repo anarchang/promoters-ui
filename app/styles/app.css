@@ -1,3 +1,29 @@
 #logo {
-	height: 100px;
+	height: 80px;
 }
+
+textarea {
+	width: 50%;
+	height: 50px;
+	display: block;
+}
+
+button {
+	margin-top: 10px;
+	height: 20px;
+}
+
+body{
+
+	padding: 20px 50px;
+
+	font-family: 'Source Sans Pro'; font-style: normal; font-weight: 300; src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMw1o1eFRj7wYC6JbISqOjY.ttf') format('truetype');
+	}
+	@font-face {
+	font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf') format('truetype');
+	}
+	@font-face {
+	font-family: 'Source Sans Pro'; font-style: normal; font-weight: 600; src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url('https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNNE-IuDiR70wI4zXaKqWCM.ttf') format('truetype');
+	}
+}
+
