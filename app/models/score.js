@@ -5,6 +5,7 @@ var Score = DS.Model.extend({
  	comment: DS.attr('string'),
  	email: DS.attr('string'),
  	date: DS.attr('date'),
+ 	category: DS.attr('string')
 });
 
 // Score.reopenClass({
