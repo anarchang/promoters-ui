@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'promoters-ui',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://torid-fire-4185.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
